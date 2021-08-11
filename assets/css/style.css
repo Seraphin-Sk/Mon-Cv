@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Start style nav */
+
+nav .container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(14, 13, 13);
+}
+
+nav .container .nav-liens a {
+    text-decoration: none;
+    color: rgba(14, 13, 13, 0.616);
+    padding: 0 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .container .nav-liens a:hover {
+    color: rgb(8, 7, 7);
+}
+
+
+/* End style nav */
+
+
+/* Start second nav */
+
+.navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 13, 13);
+}
+
+.form-soc a {
+    padding: 0 5px;
+}
+
+
+/* End second nav */
+
+
+/* Start section */
+
+section .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section .main-image img {
+    width: 650px;
+    height: 550px;
+}
+
+section .main-text {
+    padding: 30px 40px;
+}
