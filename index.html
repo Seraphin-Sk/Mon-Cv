@@ -22,9 +22,9 @@
             <div class="container">
                 <h1>Mon CV</h1>
                 <div class="nav-liens">
-                    <a href=""><i class="fas fa-user-graduate" style="font-size: 18px; color: rgb(204, 203, 203);" ></i> Education</a>
-                    <a href="#"><i class="fas fa-user-tie" style="font-size: 18px; color: rgb(204, 203, 203);" ></i> Expérience</a>
-                    <a href="#"><i class="fab fa-whmcs" style="font-size: 18px; color: rgb(204, 203, 203);" ></i> Compétence</a>
+                    <a href="#education"><i class="fas fa-user-graduate" style="font-size: 18px; color: rgb(204, 203, 203);" ></i> Education</a>
+                    <a href="#experience"><i class="fas fa-user-tie" style="font-size: 18px; color: rgb(204, 203, 203);" ></i> Expérience</a>
+                    <a href="#competence"><i class="fab fa-whmcs" style="font-size: 18px; color: rgb(204, 203, 203);" ></i> Compétence</a>
                 </div>
             </div>
         </nav>
@@ -52,8 +52,8 @@
                     </ul>
                     <form class="d-flex ">
                         <div class="form-soc">
-                            <a href="#"><i class="fab fa-github" style="font-size: 20px; color: rgb(53, 50, 50);"></i></a>
-                            <a href="#"><i class="fab fa-linkedin" style="font-size:20px; color: rgb(53, 50, 50);"></i></a>
+                            <a href="#" title="Github"><i class="fab fa-github" style="font-size: 20px; color: rgb(53, 50, 50);"></i></a>
+                            <a href="#" title="Linkedin"><i class="fab fa-linkedin" style="font-size:20px; color: rgb(53, 50, 50);"></i></a>
                         </div>
                         <input class="form-control me-0 " type="search " placeholder="Search " aria-label="Search ">
                         <button class="btn btn-outline-success " type="submit ">Search</button>
@@ -71,7 +71,7 @@
     <section>
         <div class="container-fluid">
             <div class="main-image">
-                <img src="assets/images/sera.jpg" alt="">
+                <img src="assets/images/seraphin.jpg" alt="">
             </div>
             <div class="main-text">
                 <h4>A propos</h4>
@@ -80,22 +80,22 @@
                     performants qui répond aux normes internationales. <br>
                     <div class="main-identi">
                         <p><i class="fas fa-calendar-alt" style="width: 15px;"></i> Né le 03 septembre</p>
-                        <p><i class="fas fa-phone" style="width: 15px;"></i> +243 978 546 442</p>
+                        <p><i class="fas fa-phone-alt" style="width: 15px;"></i> +243 978 546 442</p>
                         <p><i class="fas fa-envelope-open" style="width: 15px;"></i><a href="#">  seraphinsk03@gmail.com</a></p>
-                        <p><i class="fas fa-home" style="width: 15px;"></i> Kinshsa, RD Congo</p>
+                        <p><i class="fas fa-map-marker-alt" style="width: 15px;"></i> Kinshsa, RD Congo</p>
                     </div>
                 </p>
                 <div class="main-realisation">
                     <h4>Quelques réalisations</h4>
-                    <a href="file:///Users/sk/Projet_Resto-feature-TP_creation_blog/Accueil.html"><img src="assets/images/blog.jpg" alt="site web"></a>
-                    <a href="file:///Users/sk/Projet_Resto-feature-TP_creation_blog/index.html"><img src="assets/images/resto.jpg" alt="site web"></a>
+                    <a href="file:///Users/sk/Projet_Resto-feature-TP_creation_blog/Accueil.html" title="consulter le site"><img src="assets/images/blog.jpg"></a>
+                    <a href="file:///Users/sk/Projet_Resto-feature-TP_creation_blog/index.html" title="consulter le site"><img src="assets/images/resto.jpg"></a>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid">
             <div class="main-educ">
-                <h3><a href="#"><i class="fas fa-user-graduate" style="font-size: 25px; color: rgb(204, 203, 203);" ></i> EDUCATION</a></h3>
+                <h3><a href="#" id="education"><i class="fas fa-user-graduate" style="font-size: 25px; color: rgb(204, 203, 203);" ></i> EDUCATION</a></h3>
                 <ul>
                     <li> 2019-2023</li>
                     <p class="educ-text">
@@ -120,7 +120,7 @@
 
             </div>
             <div class="main-expe">
-                <h3><a href="#"><i class="fas fa-user-tie" style="font-size: 25px; color: rgb(204, 203, 203);" ></i> EXPERIENCE</a></h3>
+                <h3><a href="#" id="experience"><i class="fas fa-user-tie" style="font-size: 25px; color: rgb(204, 203, 203);" ></i> EXPERIENCE</a></h3>
                 <ul>
                     <li>2016-Présent</li>
                     <p>
@@ -147,7 +147,7 @@
                 </ul>
             </div>
             <div class="main-compe">
-                <h3><a href="#"><i class="fab fa-whmcs" style="font-size: 25px; color: rgb(204, 203, 203);" ></i> COMPETENCE</a></h3>
+                <h3><a href="#" id="competence"><i class="fab fa-whmcs" style="font-size: 25px; color: rgb(204, 203, 203);" ></i> COMPETENCE</a></h3>
                 <ul>
                     <li>Html & Css</li>
                     <p>
@@ -175,34 +175,64 @@
             </div>
         </div>
     </section>
-    <hr>
     <!-- End section -->
-    <!-- container bootstrap 2 -->
-    <div class="main-autres">
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Voir plus</button>
 
-        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasBottomLabel">Autres</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body small">
-                <div class="main-footer">
-                    <h5>Retrouvez moi sur ces comptes</h5>
-                    <a href="#"><i class="fab fa-instagram" style="font-size: 30px;color: rgb(197, 0, 164);"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp" style="font-size: 30px; color: darkgreen;"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square" style="font-size: 30px; color: royalblue;"></i></a>
-                    <a href="#"><i class="fab fa-twitter" style="font-size: 30px; color: dodgerblue;"></i></a>
-                    <a href="#"><i class="fab fa-telegram-plane" style="font-size: 30px; color: dodgerblue;"></i></a>
+    <!-- Start footer -->
 
+    <footer>
+        <div class="container-fluid">
+            <!-- container bootstrap 2 -->
+            <div class="main-autres">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                    Voir plus
+                </button>
+
+                <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasBottomLabel">Autres</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body small">
+                        <h5>Retrouvez moi sur ces comptes</h5>
+                        <div class="main-foot-connexion">
+                            <div class="main-foot-conn">
+                                <a href="#"> Connexion</a>
+                                <a href="#"> Confidentalité</a>
+                                <a href="#"> sitemap</a>
+                            </div>
+                            <div class="main-foot-liens">
+                                <a href="#" title="Instagram"><i class="fab fa-instagram" style="font-size: 25px;color: rgb(197, 0, 164);"></i></a>
+                                <a href="#" title="Whatsapp"><i class="fab fa-whatsapp" style="font-size: 25px; color: darkgreen;"></i></a>
+                                <a href="#" title="Facebook"><i class="fab fa-facebook-square" style="font-size: 25px; color: royalblue;"></i></a>
+                                <a href="#" title="Twitter"><i class="fab fa-twitter" style="font-size: 25px; color: dodgerblue;"></i></a>
+                                <a href="#" title="Telegram"><i class="fab fa-telegram-plane" style="font-size: 25px; color: dodgerblue;"></i></a>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <div class="main-foot-lang">
+                            <div class="main-foot-copy">
+                                <p>Copyright@2021 Seraphin-Sk. Tous droits réservés.</p>
+                            </div>
+                            <div class="main-foot-select">
+                                <select name="langues">
+                                <option value="RD.Congo"> Français</option>
+                                <option value="RD.Congo"> English</option>
+                                <option value="RD.Congo"> Espagnol</option>
+                                <option value="RD.Congo"> Deutsch</option>
+                                <option value="RD.Congo"> Italiano</option>
+                                <option value="RD.Congo"> Portugués</option>
+                                <option value="RD.Congo"> Pyccknn</option>
+                             </select>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="main-foot-realisation">
-
-                </div>
             </div>
+            <!-- End bootstrap 2 -->
         </div>
-    </div>
-    <!-- End bootstrap 2 -->
+    </footer>
+    <!-- End footer -->
     <script src="assets/bootstrap/js/bootstrap.min.js "></script>
 </body>
 
